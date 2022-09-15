@@ -49,9 +49,10 @@
     </script>
 </head>
 <body>
- 
+
 {% block sidebar %} {% endblock %}
-</body>
+ {% block body %}{% endblock %}
+ </body>
 </html>
 
 {% include 'admin/home/footer.html.twig'%}

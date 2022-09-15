@@ -14,7 +14,7 @@ class Category
     private ?int $id = null;
 
     #[ORM\Column]
-    private ?int $parent_id = null;
+    private ?int $pargit ent_id = null;
 
     #[ORM\Column(length: 100)]
     private ?string $title = null;
